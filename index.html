@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>My Cats</title>
+    <script src="/scripting.js" async></script>
+</head>
+<body onload = "initalize();">
+    <header><h1>
+        LOOK AT MY CATS!!
+    </h1></header>
+
+    <div class="areTheyCuteDiv">
+        <button id = "areTheyCute" onclick="theyAreCute();">Are they cute?</button>
+    </div>
+
+    <table>
+        <!-- MY TWO CATS -->
+        <tr>
+            <td class="cat">
+                <img
+                    src="/cats/beauregard/beauregard.jpg"
+                    alt="Beauregard"
+                >
+                <h2><a href="beauregard.html">Beauregard</a></h2>
+                <p>I think he might be a husky - those triangular ears are a dead giveaway that this may actually be a dog.</p>
+            </td>
+            
+            <td class="cat">
+                <img
+                    src="/cats/simba/simba.jpg"
+                    alt="Simba"
+                >
+                <h2><a href="simba.html">Simba</a></h2>
+                <p>Call him what you want: tiny tiger, little lion, petite panther. He's definitely a cat&trade;.</p>
+            </td>
+        </tr>
+
+        <!-- NOT MY CATS -->
+        <tr>
+            <td colspan="2" class="cat">
+                <h3><i>See also:</i></h3>
+                <h2><a href="other-cats.html">Not-My-Cats</a></h2>
+                <h3>and</h3>
+                <h2><a href="https://youtu.be/B_0uzSCXHt8?si=Qe2hOu0e1av_iHxP">this funny cat meme I found</a></h2>
+            </td>
+        </tr>
+    </section>
+    
+</body>
+</html>
